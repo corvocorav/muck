@@ -1,0 +1,296 @@
+html , body
+{
+    margin: 0;
+}
+#topBar
+{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(54, 188, 250);
+}
+
+#topBar button
+{
+   
+    float: right;
+    margin-right: 20px;
+    background-color: transparent;
+    border: 0;
+    filter: opacity(90%);
+    cursor: pointer;
+}
+#topBar button:hover
+{
+    filter: opacity(100%);
+}
+#steamButton
+{
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    background-image: url("steamLOGO.png");
+    background-size: 70px;
+}
+#youtubeButton
+{
+    margin-top: 10px;
+    width: 90px;
+    height: 90px;
+    background-image: url("youtubeLOGO.png");
+    background-size: 90px;
+}
+#speedrunButton
+{
+    margin-top: 12px;
+    width: 70px;
+    height: 70px;
+    background-image: url("speedrunLOGO.png");
+    background-size: 70px;
+    
+}
+#discordButton
+{
+    margin-top: 5px;
+    width: 90px;
+    height: 90px;
+    background-image: url("discordLOGO.png");
+    background-size: 90px;
+}
+
+
+#muckLogo
+{
+    height : 75px;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+body
+{
+  background-attachment: fixed;
+  
+  background-image: url("background.png");
+
+  z-index: -1;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#title
+{
+    color : white;
+    text-align: center;
+    margin-top: 70px;
+    font-size: 24px;
+}
+
+#holder 
+{
+    position : absolute;
+    width : 100%;
+    height : 650px;
+    margin-top: 50px;
+    background-color: rgb(0, 0, 0);
+    filter: opacity(50%);
+    z-index: -1;
+}
+
+
+.infoSection
+{
+   
+    float: left;
+    margin-top: 90px;
+    background-color: rgba(2, 136, 136, 0);
+    width: 33.3%;
+    margin-left: 0;
+    padding-bottom: 300px;
+}
+p
+{
+    text-align: center;
+    padding-top: 10px;
+    width: 80%;
+    margin-left: 35px;
+    font-size: 20px;
+    color: white;
+    filter: opacity(180%);
+}
+#pic1 , #pic2 , #pic3
+{  
+    width: 80%;
+    margin-left: 35px;  
+}/*
+#vid
+{
+    position: relative;
+    background-color: red;
+    float: left;
+    left: 100px;
+}
+*/
+iframe
+{
+    float: left;
+    position : relative;
+    left: 2%;
+    width: 48%;
+    padding-bottom: 100px;
+}
+#posterHolder
+{
+    position: relative;
+    background-color: hsla(0, 0%, 10%, 0.438);
+    float: right;
+    right: 10%;
+    padding: 40px 40px 20px 40px;
+    width: 20%;
+    height: 600px;
+    border-radius: 5px;
+
+
+
+    
+}
+#poster
+{
+    
+    width: 100%;
+    height: 420px;
+    padding-bottom: 30px;
+    margin-bottom: 0px;
+    
+}
+#getButtonHolder
+{
+
+    text-align: center;
+
+}
+#getButton
+{
+    
+    width: 50%;
+    height: 90px;
+    background-color: rgb(34, 161, 34);
+    color: gold;
+    font-size: 45px;
+    border: 0;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#getButton:hover
+{
+    background-color: hsl(120, 65%, 28%);
+    color: hsl(51, 100%, 50%);
+
+}  
+
+#linksHolder
+{
+    
+    position: absolute;
+    left: 2%;
+    top: 1550px;
+    width: 25%;
+    height: 135px;
+    background-color: hsla(0, 0%, 10%, 0.438);
+    padding-top: 15px;
+    border-radius: 5px;
+
+
+}
+
+.linkHolderP 
+{
+    float: left;
+    margin: 0;
+    margin-left: 20px;
+    margin-right: 10px;
+    padding: 0;
+    text-align: left;
+    color: gold;
+    font-size: 21px;
+    padding-bottom: 25px;
+    padding-left: 15px;
+}
+
+#daniLink
+{ 
+    top: 20px;
+}
+#speedrunLink
+{ 
+    top: 60px;
+}
+
+#discordLink
+{ 
+    top: 100px; 
+}
+.link 
+{
+    position: absolute;
+
+    float: left;
+    margin: 0 0 0 0;
+    padding: 0;
+    text-align: left;
+    font-size: 21px;
+    text-decoration: underline;
+    padding-bottom: 25px;
+    padding-left: 15px;
+
+    cursor: pointer;
+    color: hsl(209, 98%, 65%);
+}
+.link:hover
+{
+    color: hsl(209, 98%, 45%);
+}
+
+#meHolder
+{
+    position: absolute;
+    left: 30%;
+    top: 1550px;
+    width: 20%;
+    height : 145px;
+    padding-top: 5px;
+    background-color: hsla(0, 0%, 10%, 0.438);
+    border-radius: 5px;
+}
+#meHeader
+{
+    font-size: 30px;
+    text-align: center;
+    padding-bottom: 10px;
+    color: gold;
+}
+#corvoLink
+{ 
+    top: 50px;
+}
+#githubLink
+{
+    top: 100px;
+}
+
+*
+{
+    font-family: 'Acme', sans-serif;
+}
+
+#bottomBar
+{
+    width: 100%;
+    height : 30px; 
+    background-color: hsla(0, 0%, 10%, 0.438);
+    position: absolute;
+    top: 1800px;
+    color: rgb(196, 196, 196);
+    text-align: center;
+    padding-top: 15px;
+}

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUCK</title>
+    <link rel="stylesheet" href="styles.css">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet"> 
+
+    <link rel="shortcut icon" type="image/jpg" href="icon.jpg"/>
+
+</head>
+
+<body>
+    <div id="topBar">
+        <img src="muckLOGO.png" alt="muck logo" id="muckLogo">
+        <button id="steamButton" onclick="steam();"></button>
+        <button id="youtubeButton" onclick="youtube();"></button>
+        <button id="speedrunButton" onclick="speedrun();"></button>
+        <button id="discordButton" onclick="discord();"></button>
+    </div>    
+    
+
+
+    <div id="title">
+        Muck is a survival-roguelike.
+        Collect resources, find items & <br> 
+        build a base to survive for as l
+        ong as you can.
+    </div>
+
+    <div id="holder">
+    </div>
+
+   
+        <div class="infoSection" id="section1">
+            <img src="pic1.jpg" alt="image" id="pic1">
+            <p>
+                Trapped in the muck on an island, alone 
+                or with your friends, try to survive as 
+                long as possible by using the resources 
+                you find around the island.
+            </p>
+        </div>
+
+        <div class="infoSection" id="section2">
+            <p>
+                Collect resources, craft tools, weapons, & 
+                armor, find items & build your base 
+                during day. But once night falls, 
+                mysterious enemies appear from the 
+                shadows. Using the resources and items 
+                you've crafted during the day, you must 
+                try and make it through the night.
+            </p>
+            <img src="pic2.jpg" alt="image" id="pic1">
+        </div>
+
+        <div class="infoSection" id="section3">
+            <img src="pic3.jpg" alt="image" id="pic1">
+            <p>
+                Island throws you and your 
+                friends into a fun and action
+                packed experience on a 
+                procedurally generated island.
+                Do you have what it takes to 
+                survive?
+            </p>
+        </div>
+    
+       <div>
+           
+       </div>
+        <iframe width="950" height="440" 
+            src="https://www.youtube.com/embed/GWc7QppCPHM" title=
+            "YouTube video player" 
+            frameborder="0" allow="
+            accelerometer; autoplay;
+            clipboard-write; encrypted-media;
+            gyroscope; picture-in-picture"
+            allowfullscreen>
+        </iframe>
+
+        <div id="posterHolder">
+            <img src="poster.png" alt="game poster" id="poster">
+            <div id="getButtonHolder">
+                <button id="getButton" onclick="steam();">GET</button>
+
+            </div>
+        </div>
+
+        <div id="linksHolder">
+           
+            
+            
+            <div id="daniLink" class="link" onclick="youtube();"> Dani
+                <div class="linkHolderP">• dev:</div> 
+            </div>    
+            
+            <div id="speedrunLink" class="link" onclick="speedrun();"> speedrun.com
+                <div class="linkHolderP">• speed-runing:</div>
+            </div>    
+                          
+           <div id="discordLink" class="link" onclick="discord();">ZRwQYCTd
+            <div class="linkHolderP">• official discord:</div>
+           </div>    
+
+
+  
+        </div>
+
+        <div id="meHolder">
+
+            <div id="meHeader">me!</div>
+
+    
+            <div id="corvoLink" class="link" onclick="mydiscord();"> corvo
+                <div class="linkHolderP">• discord:</div> 
+            </div>    
+                     
+           
+           <div id="githubLink" class="link" onclick="github();"> speedrun.com
+            <div class="linkHolderP">• github:</div>
+           </div>    
+
+  
+        </div>  
+
+        <div id="bottomBar">MUCK 2021/07/29</div>
+
+    <div id="backgroundImg"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
